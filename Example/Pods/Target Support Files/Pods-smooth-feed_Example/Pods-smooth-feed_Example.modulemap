@@ -1,0 +1,6 @@
+framework module Pods_smooth_feed_Example {
+  umbrella header "Pods-smooth-feed_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - smooth-feed (0.1.0)
+
+DEPENDENCIES:
+  - smooth-feed (from `../`)
+
+EXTERNAL SOURCES:
+  smooth-feed:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  smooth-feed: b21cee5669eab80b8113bcc83fb4a14d2e6681ca
+
+PODFILE CHECKSUM: 54476fce31977b8cc931b22e4ff7a41fdb2f4ae0
+
+COCOAPODS: 1.8.4

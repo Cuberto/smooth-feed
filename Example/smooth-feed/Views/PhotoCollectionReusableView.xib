@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="PhotoCollectionReusableView" id="U6b-Vx-4bR" customClass="PhotoCollectionReusableView" customModule="Instafeed" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" translatesAutoresizingMaskIntoConstraints="NO" id="duT-ua-uYr">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="duT-ua-uYr" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="AUv-sX-sKh"/>
+                <constraint firstAttribute="bottom" secondItem="duT-ua-uYr" secondAttribute="bottom" id="fxR-ve-TjI"/>
+                <constraint firstAttribute="trailing" secondItem="duT-ua-uYr" secondAttribute="trailing" id="hQq-g1-4XE"/>
+                <constraint firstItem="duT-ua-uYr" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="kfT-HQ-GIl"/>
+            </constraints>
+            <connections>
+                <outlet property="imageView" destination="duT-ua-uYr" id="cCR-PV-WOh"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="243.75"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="photo" width="375" height="375"/>
+    </resources>
+</document>

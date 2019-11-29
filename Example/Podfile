@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'smooth-feed_Example' do
+  pod 'smooth-feed', :path => '../'
+end

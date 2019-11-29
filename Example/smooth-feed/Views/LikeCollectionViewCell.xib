@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="LikeCollectionViewCell" id="gTV-IL-0wX" customClass="LikeCollectionViewCell" customModule="SmoothScrollLayout_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3G-Xj-ZcX">
+                        <rect key="frame" x="25" y="20" width="36" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="36" id="7gc-Yv-A54"/>
+                            <constraint firstAttribute="height" constant="36" id="ngV-gr-XGB"/>
+                        </constraints>
+                        <state key="normal" image="like"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15,589 views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLe-j4-0j6">
+                        <rect key="frame" x="74" y="29.5" width="88.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9W-I2-qF4">
+                        <rect key="frame" x="212" y="20" width="36" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="DT6-Vz-Ett"/>
+                            <constraint firstAttribute="width" constant="36" id="KwD-Pd-Phg"/>
+                        </constraints>
+                        <state key="normal" image="comment"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5F6-vK-Xot">
+                        <rect key="frame" x="259" y="20" width="36" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="egM-Z5-iEd"/>
+                            <constraint firstAttribute="width" constant="36" id="vVD-1H-yed"/>
+                        </constraints>
+                        <state key="normal" image="share"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="H3G-Xj-ZcX" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="EkD-et-d0H"/>
+                <constraint firstItem="5F6-vK-Xot" firstAttribute="leading" secondItem="m9W-I2-qF4" secondAttribute="trailing" constant="11" id="FdZ-xd-QA9"/>
+                <constraint firstItem="WLe-j4-0j6" firstAttribute="centerY" secondItem="H3G-Xj-ZcX" secondAttribute="centerY" id="QBV-2X-x8v"/>
+                <constraint firstItem="m9W-I2-qF4" firstAttribute="centerY" secondItem="H3G-Xj-ZcX" secondAttribute="centerY" id="Siq-6K-kad"/>
+                <constraint firstAttribute="trailing" secondItem="5F6-vK-Xot" secondAttribute="trailing" constant="25" id="Xep-aN-5yB"/>
+                <constraint firstItem="WLe-j4-0j6" firstAttribute="leading" secondItem="H3G-Xj-ZcX" secondAttribute="trailing" constant="13" id="a9Q-eN-Ipp"/>
+                <constraint firstItem="H3G-Xj-ZcX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="25" id="k0B-x9-8mc"/>
+                <constraint firstItem="5F6-vK-Xot" firstAttribute="centerY" secondItem="H3G-Xj-ZcX" secondAttribute="centerY" id="kRW-Gm-JC3"/>
+            </constraints>
+            <size key="customSize" width="320" height="76"/>
+            <connections>
+                <outlet property="commentButton" destination="m9W-I2-qF4" id="kt3-ao-b2g"/>
+                <outlet property="likeButton" destination="H3G-Xj-ZcX" id="QUC-dk-g1D"/>
+                <outlet property="shareButton" destination="5F6-vK-Xot" id="4ik-iM-UCj"/>
+                <outlet property="viewsLabel" destination="WLe-j4-0j6" id="5Sa-Xf-4GO"/>
+            </connections>
+            <point key="canvasLocation" x="333.33333333333337" y="147.99107142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="comment" width="16" height="14"/>
+        <image name="like" width="18" height="16"/>
+        <image name="share" width="16" height="14"/>
+    </resources>
+</document>

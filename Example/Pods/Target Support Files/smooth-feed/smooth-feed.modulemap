@@ -1,0 +1,6 @@
+framework module smooth_feed {
+  umbrella header "smooth-feed-umbrella.h"
+
+  export *
+  module * { export * }
+}
