@@ -4,7 +4,8 @@ Cuberto is a leading digital agency with solid design and development expertise.
 
 # smooth-feed
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Cuberto/liquid-swipe/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Cuberto/smooth-feed/master/LICENSE)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-green.svg?style=flat)](https://developer.apple.com/swift/)
 
 ![Animation](https://raw.githubusercontent.com/cuberto/smooth-feed/master/Screenshots/animation.gif)
 
@@ -38,4 +39,4 @@ Cuberto Design, info@cuberto.com
 
 ## License
 
-SmoothScrollLayout is available under the MIT license. See the LICENSE file for more info.
+smooth-feed is available under the MIT license. See the LICENSE file for more info.

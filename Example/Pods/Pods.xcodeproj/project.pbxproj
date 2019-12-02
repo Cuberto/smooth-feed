@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07B2B84C18DB25F44579343983C157BA /* Pods_smooth_feed_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_smooth_feed_Example.framework; path = "Pods-smooth-feed_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B2B84C18DB25F44579343983C157BA /* Pods_smooth_feed_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smooth_feed_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		325F56935F210BB2B08CD3920ECE418D /* Pods-smooth-feed_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-smooth-feed_Example-frameworks.sh"; sourceTree = "<group>"; };
 		396A080E0808F067BBC2114D9A4ABF5E /* Pods-smooth-feed_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smooth-feed_Example-Info.plist"; sourceTree = "<group>"; };
@@ -36,18 +36,18 @@
 		671D1DFBD81B96F57078A47A07CD0F07 /* smooth-feed-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "smooth-feed-Info.plist"; sourceTree = "<group>"; };
 		67D676712A734199DC79E2117A1B4406 /* Pods-smooth-feed_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smooth-feed_Example.release.xcconfig"; sourceTree = "<group>"; };
 		725735BE94BC6636E908E9D449268C3F /* smooth-feed-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "smooth-feed-umbrella.h"; sourceTree = "<group>"; };
-		8002ED484281F9A26AF7F0B0F55DA108 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8002ED484281F9A26AF7F0B0F55DA108 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		899D7541C77165D35C42F67DDC470CFB /* Pods-smooth-feed_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-smooth-feed_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E35BE6804F070DCFB4208BC3F579CAB /* smooth-feed-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "smooth-feed-prefix.pch"; sourceTree = "<group>"; };
 		91EE446333A24BA9803799F8C047CD18 /* SmoothFeedCollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmoothFeedCollectionReusableView.swift; path = "smooth-feed/Classes/SmoothFeedCollectionReusableView.swift"; sourceTree = "<group>"; };
-		98226FC3D54B968E548EB032EBD27857 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98226FC3D54B968E548EB032EBD27857 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2CD57FC9316A885ED393AEC6E56CA5C /* smooth-feed.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "smooth-feed.xcconfig"; sourceTree = "<group>"; };
 		B4827D069DEACE44CC171EB37043DF0C /* Pods-smooth-feed_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smooth-feed_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B74BB30C56866D93CECB7A579CF23CBF /* Pods-smooth-feed_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smooth-feed_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B8344A201CF2A0A57D8269701A798152 /* smooth_feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = smooth_feed.framework; path = "smooth-feed.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8344A201CF2A0A57D8269701A798152 /* smooth_feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = smooth_feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA71BEE8F43E9ADF1D3BDBCB1F7B86FD /* smooth-feed-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "smooth-feed-dummy.m"; sourceTree = "<group>"; };
-		C21FF2DF693413FFE2CB9E17D67A2168 /* smooth-feed.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "smooth-feed.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C21FF2DF693413FFE2CB9E17D67A2168 /* smooth-feed.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "smooth-feed.podspec"; sourceTree = "<group>"; tabWidth = 2; };
 		C3C5C3F0A70E0581EDAE4F1686A8C1DC /* Pods-smooth-feed_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-smooth-feed_Example.modulemap"; sourceTree = "<group>"; };
 		E14B66D006D7939FE7A62B133F88849C /* Pods-smooth-feed_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-smooth-feed_Example-umbrella.h"; sourceTree = "<group>"; };
 		E26B0A37594B325C9384FAD137BF9D2D /* SmoothFeedCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmoothFeedCollectionViewLayout.swift; path = "smooth-feed/Classes/SmoothFeedCollectionViewLayout.swift"; sourceTree = "<group>"; };
@@ -466,8 +466,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
