@@ -35,6 +35,11 @@ open class SmoothFeedCollectionViewLayout: UICollectionViewLayout {
     
     private var itemHeightCache = [IndexPath: CGFloat]()
     
+    /// Make sure you call this method on `reloadData()` or model changes
+    public func clearCache() {
+        itemHeightCache.removeAll()
+    }
+    
     override open var collectionViewContentSize: CGSize {
         guard let collectionView = collectionView else { return CGSize.zero }
         return CGSize(width: collectionView.bounds.width, height: sectionY(for: collectionView.numberOfSections))
