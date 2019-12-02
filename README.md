@@ -5,6 +5,7 @@ Cuberto is a leading digital agency with solid design and development expertise.
 # smooth-feed
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Cuberto/smooth-feed/master/LICENSE)
+[![CocoaPods](https://img.shields.io/cocoapods/v/smooth-feed.svg)](http://cocoapods.org/pods/smooth-feed)
 [![Swift 5.0](https://img.shields.io/badge/Swift-5.0-green.svg?style=flat)](https://developer.apple.com/swift/)
 
 ![Animation](https://raw.githubusercontent.com/cuberto/smooth-feed/master/Screenshots/animation.gif)
